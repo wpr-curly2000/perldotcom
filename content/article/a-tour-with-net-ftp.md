@@ -112,7 +112,7 @@ Ok that's cool, but I only played with ftp server and preinstalled `ftp` client 
 
 ![](/images/a-tour-with-net-ftp/whatif.jpg)
 
-[Net::FTP](h{{</* mcpan "Net::FTP" */>}}) is a superb [CPAN](https://metacpan.org/) module dedicated to FTP protocol and I'll use that.
+[Net::FTP]({{< mcpan "Net::FTP" >}}) is a superb [CPAN](https://metacpan.org/) module dedicated to FTP protocol and I'll use that.
 
 ### Simple listing
 
