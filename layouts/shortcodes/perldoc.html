@@ -1,1 +1,1 @@
-https://perldoc.perl.org/{{- .Get 0 -}}.html{{ if .Get 1 }}#{{.Get 1}}{{ end }}
+https://perldoc.perl.org/{{- .Get 0 -}}{{- if 1 -}}.html{{- end -}}{{- if .Get 1 -}}#{{- .Get 1 -}}{{- end -}}
