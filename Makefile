@@ -6,4 +6,4 @@ new:
 
 .PHONY: start
 start:
-	hugo server --buildDrafts --buildFuture -d built
+	hugo server --buildDrafts --buildFuture --disableFastRender -d built
